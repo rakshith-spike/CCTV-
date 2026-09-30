@@ -1,43 +1,45 @@
 ---
-title: CamTrace Intelligence
+title: FORENSIC-X / CamTrace Intelligence
 emoji: 🎥
 colorFrom: blue
 colorTo: green
 sdk: docker
 pinned: true
 app_port: 7860
-short_description: AI CCTV Intelligence Platform - SIH 2026 | Team Phoenix
+short_description: Multi-Vendor DVR/NVR Forensic Analysis Tool - SIH 2026 | Team Phoenix
 ---
 
-# FORENSIC-X
+# FORENSIC-X (CamTrace)
 
-This application now includes a Multi-Vendor DVR/NVR Forensic Analysis workflow while preserving the existing CCTV features. Start with [the forensic setup and demo guide](FORENSIC_QUICKSTART.md). The original CamTrace documentation below describes the inherited platform; capability claims should be read alongside the prototype limitations in the new guide.
-
-# CamTrace Intelligence
-
-### AI-Based Intelligent Video Analytics Platform for Border Surveillance Using Existing CCTV Infrastructure
+### Development of a Multi-Vendor DVR/NVR Forensic Analysis Tool for Standardized Acquisition, Recovery, and Analysis of Surveillance Evidence
 
 > **Smart India Hackathon 2026**  
-> **Problem Statement ID:** SIH26187  
-> **Theme:** Smart Automation | **Category:** Software  
+> **Problem Statement ID:** SIH26150  
+> **Problem Statement Title:** Development of a Multi-Vendor DVR/NVR Forensic Analysis Tool for Standardized Acquisition, Recovery, and Analysis of Surveillance Evidence  
+> **Organization:** National Technical Research Organisation (NTRO)  
+> **Theme:** Blockchain & Cybersecurity | **Category:** Software  
 > **Team ID:** S4D068-1 | **Team Name:** Phoenix  
+
+---
+
+> 📖 **Quickstart Guide:** For forensic workflows, setup instructions, and evaluation walkthroughs, see [`FORENSIC_QUICKSTART.md`](FORENSIC_QUICKSTART.md).
 
 ---
 
 ## 📌 Executive Summary
 
-**CamTrace Intelligence** is an AI-powered visual investigation platform that transforms raw CCTV footage into searchable, verifiable evidence. It empowers border surveillance operators, law enforcement, and security investigators to locate and refine people, vehicles, objects, or scenario events using natural-language queries, instantly retrieving contextual video evidence clips rather than isolated, inconclusive still frames.
+**FORENSIC-X (CamTrace)** is a unified multi-vendor DVR/NVR forensic analysis and AI-powered surveillance intelligence platform. It solves the critical bottleneck of proprietary CCTV/DVR file formats and fragmented evidence handling by providing standardized digital evidence acquisition (MD5 & SHA-256 cryptographic verification), automated video recovery, immutable chain-of-custody logging, and multimodal natural-language forensic search.
 
 ---
 
 ## ⚖️ Problem Statement & Solution
 
-| Existing Issue | CamTrace Solution |
+| Existing Issue | FORENSIC-X / CamTrace Solution |
 | :--- | :--- |
-| **Manual CCTV Search** | **Natural-Language Video Search** via multimodal semantic embeddings |
-| **Hours of Footage** | **Fast Evidence Retrieval** with sub-second vector search & adaptive sampling |
-| **Too Many Matches** | **Progressive Query Refinement** using multi-attribute clues and scenario constraints |
-| **Hard to Track Events** | **AI-Based Detection & Tracking** using YOLOv8, ByteTrack, and spatial-temporal grouping |
+| **Proprietary & Diverse DVR/NVR Formats** | **Multi-Vendor Adapter Registry** for standardized logical acquisition across Hikvision, Dahua, CP Plus, and generic DVRs |
+| **Manual CCTV Search Across Hours of Footage** | **Natural-Language Video Search** via multimodal semantic embeddings (CLIP + Qdrant) |
+| **Chain-of-Custody & Tamper Risks** | **Dual Cryptographic Hashing (MD5 + SHA-256)** and auditable digital custody logs |
+| **Unindexed & Hard-to-Track Events** | **Real-Time Detection & Spatio-Temporal Grouping** using YOLOv8, ByteTrack, and contextual clip generation |
 
 ### Innovation & Uniqueness
 - **Searchable Visual Database:** Ingests raw CCTV feeds (MP4, MOV, AVI) and extracts dense visual-semantic representations.
@@ -234,7 +236,10 @@ For 1-click cloud deployment on **Railway**, **Render**, or **Hugging Face Space
 ## 👥 Team Phoenix
 
 - **Hackathon:** Smart India Hackathon 2026
-- **Problem Statement:** SIH26187 — *AI based Intelligent Video Analytics Platform for border Surveillance using existing CCTV infrasturcture*
-- **Theme:** Smart Automation (Software)
+- **Problem Statement ID:** SIH26150
+- **Problem Statement Title:** Development of a Multi-Vendor DVR/NVR Forensic Analysis Tool for Standardized Acquisition, Recovery, and Analysis of Surveillance Evidence
+- **Organization:** National Technical Research Organisation (NTRO)
+- **Theme:** Blockchain & Cybersecurity (Software)
 - **Team ID:** S4D068-1
 - **Team Name:** Phoenix
+
